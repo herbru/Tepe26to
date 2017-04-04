@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="72dp"
+    android:layout_marginTop="50dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:onClick="presionarBoton"
+            android:scaleType="centerInside"
+            android:id="@+id/uno"/>
+
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:onClick="presionarBoton"
+            android:scaleType="centerInside"
+            android:id="@+id/dos"/>
+
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:onClick="presionarBoton"
+            android:scaleType="centerInside"
+            android:id="@+id/tres"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:onClick="presionarBoton"
+            android:scaleType="centerInside"
+            android:id="@+id/cuatro"/>
+
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:onClick="presionarBoton"
+            android:scaleType="centerInside"
+            android:id="@+id/cinco"/>
+
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:onClick="presionarBoton"
+            android:scaleType="centerInside"
+            android:id="@+id/seis"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:onClick="presionarBoton"
+            android:scaleType="centerInside"
+            android:id="@+id/siete"/>
+
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:onClick="presionarBoton"
+            android:scaleType="centerInside"
+            android:id="@+id/ocho"/>
+
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:onClick="presionarBoton"
+            android:scaleType="centerInside"
+            android:id="@+id/nueve"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Iniciar"
+        android:onClick="iniciar"
+        android:layout_marginLeft="72dp"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>
