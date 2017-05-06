@@ -4,98 +4,116 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:layout_marginLeft="72dp"
-    android:layout_marginTop="50dp"
+    android:gravity="center"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <LinearLayout
+    <EditText
+        android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <ImageButton
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:onClick="presionarBoton"
-            android:scaleType="centerInside"
-            android:id="@+id/uno"/>
-
-        <ImageButton
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:onClick="presionarBoton"
-            android:scaleType="centerInside"
-            android:id="@+id/dos"/>
-
-        <ImageButton
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:onClick="presionarBoton"
-            android:scaleType="centerInside"
-            android:id="@+id/tres"/>
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <ImageButton
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:onClick="presionarBoton"
-            android:scaleType="centerInside"
-            android:id="@+id/cuatro"/>
-
-        <ImageButton
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:onClick="presionarBoton"
-            android:scaleType="centerInside"
-            android:id="@+id/cinco"/>
-
-        <ImageButton
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:onClick="presionarBoton"
-            android:scaleType="centerInside"
-            android:id="@+id/seis"/>
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <ImageButton
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:onClick="presionarBoton"
-            android:scaleType="centerInside"
-            android:id="@+id/siete"/>
-
-        <ImageButton
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:onClick="presionarBoton"
-            android:scaleType="centerInside"
-            android:id="@+id/ocho"/>
-
-        <ImageButton
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:onClick="presionarBoton"
-            android:scaleType="centerInside"
-            android:id="@+id/nueve"/>
-    </LinearLayout>
+        android:hint="Nombre"
+        android:paddingTop="10dp" />
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Iniciar"
-        android:onClick="iniciar"
-        android:layout_marginLeft="72dp"
-        android:layout_marginTop="10dp"/>
+        android:onClick="generar"
+        android:text="enviar"/>
+
+    <LinearLayout
+        android:paddingTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/Linear1">
+
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:onClick="presionarBoton"
+            android:tag="0"
+            android:scaleType="centerInside"
+            android:id="@+id/btnUno"/>
+
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:onClick="presionarBoton"
+            android:tag="1"
+            android:scaleType="centerInside"
+            android:id="@+id/btnDos"/>
+
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:onClick="presionarBoton"
+            android:tag="2"
+            android:scaleType="centerInside"
+            android:id="@+id/btnTres"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/Linear2">
+
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:onClick="presionarBoton"
+            android:tag="3"
+            android:scaleType="centerInside"
+            android:id="@+id/btnCuatro"/>
+
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:onClick="presionarBoton"
+            android:tag="4"
+            android:scaleType="centerInside"
+            android:id="@+id/btnCinco"/>
+
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:onClick="presionarBoton"
+            android:tag="5"
+            android:scaleType="centerInside"
+            android:id="@+id/btnSeis"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/Linear3">
+
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:onClick="presionarBoton"
+            android:tag="6"
+            android:scaleType="centerInside"
+            android:id="@+id/btnSiete"/>
+
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:onClick="presionarBoton"
+            android:tag="7"
+            android:scaleType="centerInside"
+            android:id="@+id/btnOcho"/>
+
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:onClick="presionarBoton"
+            android:tag="8"
+            android:scaleType="centerInside"
+            android:id="@+id/btnNueve"/>
+    </LinearLayout>
+
 </LinearLayout>
